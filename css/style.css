@@ -2,4 +2,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
+.container {
+  width: 1300px;
+  margin: auto;
+}
+header {
+  background-image: url("../images/dawn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.4111);
+  background-blend-mode: multiply;
+  padding: 15px 0;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+/* logo-section */
+.flex {
+  display: flex;
+}
+.logo{
+  width: 20%;
+}
+.logo h2 {
+  font-size: 16px;
+  font-weight: 600px;
+  color: white;
+}
+.logo h2 span{
+  font-size: 16px;
+  font-weight: 400px;
+  display: block;
+}
+/* nav-bar */
+nav{
+  width: 80%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600px;
+  color: white;
+  padding: 8px;
+}
+/* banner-section */

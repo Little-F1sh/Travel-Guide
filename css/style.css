@@ -140,3 +140,44 @@ nav ul li a {
   text-align: center;
 }
 /* all places in my area */
+.background-image{
+  background-image: url("../images/Aftabgonj\ bajar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #1767d6b8;
+  background-blend-mode: multiply;
+  padding: 150px 0;
+  margin-top: 100px;
+  color: white;
+  background-attachment: fixed;
+
+}
+.Area-flex {
+  display: flex;
+  justify-content: end;
+}
+.text {
+  width: 50%;
+}
+.text h2 {
+  font-size: 60px;
+}
+.text span {
+  width: 100px;
+  height: 5px;
+  background: #FB2259;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+.text p{
+  font-size: 18px;
+  margin: 10px 0 25px 0;
+}
+.text a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 600;
+}

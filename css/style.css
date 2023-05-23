@@ -181,3 +181,31 @@ nav ul li a {
   letter-spacing: 2px;
   font-weight: 600;
 }
+/* all places */
+.tour-section {
+  padding: 60px 0;
+}
+.places span{
+  width: 100px;
+  height: 5px;
+  background: #FB2259;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+.places {
+  padding: 10px;
+  width: 30%;
+}
+.small {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.big{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}

@@ -5,7 +5,7 @@
   font-family: Roboto, sans-serif;
 }
 .container {
-  width: 1300px;
+  width: 1200px;
   margin: auto;
 }
 header {
@@ -29,7 +29,7 @@ img{
   width: 20%;
 }
 .logo h2 {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 600px;
   color: white;
 }
@@ -41,10 +41,11 @@ img{
 /* nav-bar */
 nav{
   width: 80%;
+  height: 72px;
 }
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
 }
 nav ul li {
   list-style: none;
@@ -52,8 +53,42 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 18px;
-  font-weight: 600px;
+  font-weight: 500px;
   color: white;
   padding: 8px;
 }
 /* banner-section */
+.hero {
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+}
+.hero h3 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+}
+.hero span {
+  width: 100px;
+  height: 5px;
+  background: #FB2259;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+
+}
+.hero h1 {
+  font-size: 60px;
+  font-weight: 600px;
+  margin: 35px;
+}
+.hero a {
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #FB2259;
+  padding: 12px;
+
+}
